@@ -1,0 +1,97 @@
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git add *
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git commit -m "Login"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Alam@DESKTOP-U8LD0NJ.(none)')
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ config
+bash: config: command not found
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git add *
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git config --global user.email "alamalmabruk@rocketmail.com"
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git config --global user.name "marvelalam"
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git commit -m "login atau nambah guard"
+[master 2695aa3] login atau nambah guard
+ 7 files changed, 19 insertions(+), 4 deletions(-)
+ create mode 100644 guard/guard_10.php
+ create mode 100644 guard/guard_8.php
+ create mode 100644 guard/guard_9.php
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 827 bytes | 413.00 KiB/s, done.
+Total 10 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), completed with 6 local objects.
+To https://github.com/dsatriia/magangtelkom.git
+   c14399a..2695aa3  master -> master
+

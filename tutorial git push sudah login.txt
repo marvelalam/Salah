@@ -1,0 +1,24 @@
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git add *
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git commit -m "User WOC"
+[master 8c53769] User WOC
+ 4 files changed, 375 insertions(+)
+ create mode 100644 woc_edit.php
+ create mode 100644 woc_tabel.php
+ create mode 100644 woc_tampil.php
+ create mode 100644 woc_update.php
+
+Alam@DESKTOP-U8LD0NJ MINGW64 /c/xampp/htdocs/git/magangtelkom (master)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 3.47 KiB | 1.16 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/dsatriia/magangtelkom.git
+   d5b9337..8c53769  master -> master
